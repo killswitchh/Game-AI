@@ -74,7 +74,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\FTW\reqd stuff\glad\include;D:\FTW\reqd stuff\glfw-3.3.2.bin.WIN64\glfw-3.3.2.bin.WIN64\include;$(IncludePath)</IncludePath>
+    <IncludePath>O:\Multimedia\Studies\Semester 8\Major Project\Game-AI\reqd stuff\glad\include;O:\Multimedia\Studies\Semester 8\Major Project\Game-AI\reqd stuff\glfw-3.3.2.bin.WIN64\glfw-3.3.2.bin.WIN64\include;D:\FTW\reqd stuff\glfw-3.3.2.bin.WIN64\glfw-3.3.2.bin.WIN64\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -105,7 +105,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\FTW\reqd stuff\glfw-3.3.2.bin.WIN64\glfw-3.3.2.bin.WIN64\lib-vc2019;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>O:\Multimedia\Studies\Semester 8\Major Project\Game-AI\reqd stuff\glfw-3.3.2.bin.WIN64\glfw-3.3.2.bin.WIN64\lib-vc2019;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
