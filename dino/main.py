@@ -25,7 +25,7 @@ cactus_y = 400
 cactus_speed = 0.2
 
 #gamevar
-grav = 0.001
+grav = 0.0011
 add = 0
 jmp = 0
 fl = 0
