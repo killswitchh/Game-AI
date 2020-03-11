@@ -1,0 +1,103 @@
+﻿  glad.c
+  Source.cpp
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(399,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(400,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(400,47): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(401,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(401,47): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(402,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(417,60): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(417,57): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(417,54): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(417,51): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(445,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(560,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(560,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(560,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(560,11): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(562,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(562,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(562,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(562,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(564,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(564,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(564,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(564,11): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(566,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(566,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(566,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(566,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(568,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(568,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(568,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(568,14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(569,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(569,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(569,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(569,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(764,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(764,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(766,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(766,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(767,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(767,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(601,23): warning C4101: 't2': unreferenced local variable
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(601,19): warning C4101: 't1': unreferenced local variable
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(604,9): warning C4101: 'j': unreferenced local variable
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(988,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(988,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(990,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(990,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(991,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(991,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1015,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1015,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1015,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1015,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1017,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1017,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1017,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1017,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1022,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1022,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1022,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1022,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1024,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1024,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1024,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1024,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1029,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1029,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1029,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1029,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1031,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1031,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1031,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1031,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1035,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1035,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1035,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1035,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1037,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1037,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1037,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1037,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1038,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1038,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1038,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1038,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1039,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1039,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1039,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1039,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1084,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1085,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1109,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1110,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\FTW\gthub\Game-AI\maze\maze\Source.cpp(1333,16): warning C4101: 'tex': unreferenced local variable
+  Generating code
+  63 of 66 functions (95.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  maze.vcxproj -> D:\FTW\gthub\Game-AI\maze\x64\Release\maze.exe
