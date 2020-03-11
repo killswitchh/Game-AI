@@ -137,8 +137,11 @@ def rungame():
 while 1:
     rungame()
     reset()
+    
+    
     for event in pygame.event.get():
             if event.type == pygame.QUIT or running == -1:
+                running = -1
                 break
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_RETURN or event.key == pygame.K_KP_ENTER:
@@ -146,3 +149,5 @@ while 1:
             if event.type == pygame.KEYUP:
                 if event.key == pygame.K_SPACE:
                     jmp = 0
+    if(running==-1):
+        break
