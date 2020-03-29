@@ -4,7 +4,7 @@ import random
 pygame.init()
 
 #creating screen
-screen=pygame.display.set_mode((500,500))
+screen=pygame.display.set_mode((500,500),flags=pygame.FULLSCREEN)
 
 #title and icon
 pygame.display.set_caption("Dino Game")
@@ -23,15 +23,18 @@ cactus_img= pygame.image.load("cactus.png")
 cactus_x = 500
 cactus_y = 400
 cactus_speed = 0.2
+cactus_px=cactus_x
 
 #gamevar
-grav = 0.0011
+grav = 0.001
 add = 0
 jmp = 0
 fl = 0
 xy = 64 #picture dimensions
 a = 0
 running = 1
+sc = 0
+font=pygame.font.SysFont('Arial',20)
 #collision box draw (For debugging)[1=true 0=false]
 cbox = 1
 
@@ -63,12 +66,13 @@ def cactus(x,y):
     screen.blit(cactus_img,(x,y))
 
 def reset():
-    global dino_yvel, dino_y, cactus_x, cactus_y, cactus_speed
+    global dino_yvel, dino_y, cactus_x, cactus_y, cactus_speed, sc
     dino_yvel = 0
     dino_y = dino_iy
     cactus_x = 500
     cactus_y = 400
     cactus_speed = 0.2
+    sc = 0
 
 def update():
     global dino_y, dino_iy, dino_yvel, fl, jmp
@@ -83,26 +87,35 @@ def update():
         dino_y = dino_iy
         dino_yvel = 0
 
-
+def score():
+    global sc
+    if(cactus_x != 500):
+        sc += (cactus_px - cactus_x)*0.1
+    text=font.render(str(int(sc)),True,(0,0,0))
+    screen.blit(text,(50,100))#text.get_width(),text.get_height()))
     
 #game loop
 def rungame():
     global running
-    global cactus_x, cactus_y, dino_x, dino_y, cactus_speed, a, jmp
+    global cactus_x, cactus_y, dino_x, dino_y, cactus_speed, a, jmp, cactus_px
     while running == 1:
-    
+
         #RGB Background
-        screen.fill((220,210,200))
+        screen.fill((255,255,255))
+        score()
         #close button to quit
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = -1
-        
+                return
     #check for spacebar
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
                     print("SpaceBar Pressed")
-                    jmp = 1 
+                    jmp = 1
+                if event.key == pygame.K_ESCAPE:
+                    running=-1
+                    break
             if event.type == pygame.KEYUP:
                 if event.key == pygame.K_SPACE:
                     print ("Key Released")
@@ -111,6 +124,7 @@ def rungame():
             
         
 
+        cactus_px = cactus_x
         cactus_x  = cactus_x -cactus_speed
         if(cactus_x<-64):
             print()
@@ -138,11 +152,20 @@ while 1:
     rungame()
     reset()
     for event in pygame.event.get():
-            if event.type == pygame.QUIT or running == -1:
+        if event.type == pygame.QUIT or running == -1:
+            print("Hello")
+            running = -1
+            break
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_ESCAPE:
+                running=-1
                 break
-            if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_RETURN or event.key == pygame.K_KP_ENTER:
-                    running = 1
-            if event.type == pygame.KEYUP:
-                if event.key == pygame.K_SPACE:
-                    jmp = 0
+            if event.key == pygame.K_RETURN or event.key == pygame.K_KP_ENTER:
+                running = 1
+        if event.type == pygame.KEYUP:
+            if event.key == pygame.K_SPACE:
+                jmp = 0
+    if running == -1:
+        pygame.quit()
+        break
+ 
